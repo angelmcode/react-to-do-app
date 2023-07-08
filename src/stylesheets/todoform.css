@@ -1,0 +1,23 @@
+.container-todoform {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 94%;
+}
+
+.todo-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 40px;
+}
+
+.add-task {
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.container-todo {
+    width: 90%;
+    min-height: 50px;
+    background-color: beige;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.complete1 {
+    width: 90%;
+    min-height: 50px;
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.complete2 {
+    width: 98%;
+    min-height: 40px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: line-through;
+    background-color: aqua;
+    padding: 10px;
+    text-align: justify;
+}
+
+.todo-text {
+    width: 98%;
+    min-height: 40px;
+    background-color: beige;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: justify;
+}
+
+.todo-icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 26px;
+    text-decoration: dotted;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-todoapp {
+    border: 1px solid black;
+    width: 598px;
+    min-height: 458px;
+    border-radius: 10px;
+    background-color: rgb(6, 99, 206);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.container-todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin: 10px;
+}
